@@ -1,0 +1,15 @@
+POST http://localhost:8081/albums
+Content-Type: application/json
+
+{
+	"id": "5",
+	"title": "Duy Anh Dep trai",
+	"artist": "Duy Anh",
+	"price": 49.99
+}
+
+###
+GET http://localhost:8081/albums
+
+###
+GET http://localhost:8081/albums/1
